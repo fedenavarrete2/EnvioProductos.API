@@ -28,7 +28,7 @@ namespace EnvioProductos.API.Controllers
             try
             {
                 _service.CancelarEnvio(id);
-                return Ok(new { mensaje = "Envío cancelado correctamente." });
+                return Ok(new { mensaje = "Envío cancelado correctamentee." });
             }
             catch (Exception ex)
             {
